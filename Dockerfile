@@ -12,7 +12,7 @@ RUN pip install -r requirements.txt
 ADD . /app
 
 # Make port 80 available for links and/or publish
-EXPOSE 80
+#EXPOSE 80
 
 # Environment Variables
 ENV NAME World
